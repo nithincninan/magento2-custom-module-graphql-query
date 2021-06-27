@@ -1,0 +1,27 @@
+{
+    "name": "magento/module-brand-graph-ql",
+    "description": "Brands Module - Get/Query via GraphQL",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.4.0",
+        "magento/framework": "103.0.*",
+        "magento/module-brand": "103.0.*"
+    },
+    "suggest": {
+        "magento/module-graph-ql": "100.4.*",
+        "magento/module-graph-ql-cache": "100.4.*"
+    },
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\BrandGraphQl\\": ""
+        }
+    },
+    "version": "100.4.0"
+}
