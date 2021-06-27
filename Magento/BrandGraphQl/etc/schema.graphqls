@@ -1,0 +1,15 @@
+# Copyright © 2021 MDC_NCN, LLC. All rights reserved.
+
+type Query {
+    brandData (
+        code: String @doc(description: "Brand code of the brand")
+    ): BrandItems @resolver(class: "Magento\\BrandGraphQl\\Model\\Resolver\\Brand") @doc(description: "The query returns information about a Brand")
+}
+
+type BrandItems @doc(description: "Brand Items of a brand.") {
+    brand_id: Int! @doc(description: "Brand Id of brand")
+    code: String @doc(description: "Brand code of the brand")
+    name: String @doc(description: "Brand Name")
+    created_at: String @doc(description: "Created At")
+    updated_at: String @doc(description: "Updated At")
+}
