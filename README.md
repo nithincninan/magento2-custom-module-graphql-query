@@ -1,0 +1,1 @@
+# magento2-custom-module-graphql-query
