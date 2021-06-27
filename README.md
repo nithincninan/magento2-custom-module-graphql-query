@@ -101,4 +101,6 @@ A GraphQL request is represented by the following arguments, which will be proce
     }
 ```
 
+ChromeiQL:
+
 ![grpahql-brand-m2-2 4 2](https://user-images.githubusercontent.com/2525741/123555147-89690600-d7a1-11eb-9437-b63ed953787e.jpg)
