@@ -2,6 +2,7 @@
 
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
+
 **GraphQL Query:**
 
 Query – is used to read or fetch values.
@@ -23,6 +24,7 @@ Query – is used to read or fetch values.
             ResolverInterface - \Magento\Framework\GraphQl\Query\ResolverInterface
 
     * DataProvider: Returns and convert brand data by code.
+    
 
 **File Structure:**
 
@@ -99,4 +101,4 @@ A GraphQL request is represented by the following arguments, which will be proce
     }
 ```
 
-
+![grpahql-brand-m2-2 4 2](https://user-images.githubusercontent.com/2525741/123555147-89690600-d7a1-11eb-9437-b63ed953787e.jpg)
