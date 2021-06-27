@@ -1,4 +1,4 @@
-# M2-2.4.2 Custom module using GraphQL(Query) - BrandGraphQL Module
+# M2-2.4.x Custom module using GraphQL(Query) - BrandGraphQL Module
 
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
@@ -24,7 +24,7 @@ Query – is used to read or fetch values.
             ResolverInterface - \Magento\Framework\GraphQl\Query\ResolverInterface
 
     * DataProvider: Returns and convert brand data by code.
-    
+
 
 **File Structure:**
 
