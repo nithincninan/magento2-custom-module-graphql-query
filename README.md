@@ -2,7 +2,6 @@
 
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
-
 **GraphQL Query:**
 
 Query – is used to read or fetch values.
