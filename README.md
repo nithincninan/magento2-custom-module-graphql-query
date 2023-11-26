@@ -25,7 +25,6 @@ Query – is used to read or fetch values.
     * DataProvider: Returns and convert brand data by code.
 
 
-
 **File Structure:**
 
 ```
