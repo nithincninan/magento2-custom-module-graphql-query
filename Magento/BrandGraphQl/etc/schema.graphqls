@@ -13,4 +13,3 @@ type BrandItems @doc(description: "Brand Items of a brand.") {
     created_at: String @doc(description: "Created At")
     updated_at: String @doc(description: "Updated At")
 }
-
