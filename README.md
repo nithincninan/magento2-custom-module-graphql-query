@@ -2,6 +2,14 @@
 
 MDozOnFVbFVDK0JWQ3BER1dDdGMyUHua1paa2Q4SHZxczJVOFdSUVVud0RmY3Jsd0RNpQ
 
+use Laminas\Log\Logger;
+use Laminas\Log\Writer\Stream;
+
+$writer = new Stream(BP . '/var/log/test.log');
+$logger = new Logger();
+$logger->addWriter($writer);
+$logger->info('Test log working');
+
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
 **GraphQL Query:**
