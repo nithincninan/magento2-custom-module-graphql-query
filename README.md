@@ -1,5 +1,7 @@
 # M2-2.4.x Custom module using GraphQL(Query) - BrandGraphQL Module
 
+MDozOnFVbFVDK0JWQ3BER1dDdGMyUHua1paa2Q4SHZxczJVOFdSUVVud0RmY3Jsd0RNpQ
+
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
 **GraphQL Query:**
