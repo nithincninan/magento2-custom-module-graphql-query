@@ -10,6 +10,15 @@ $logger = new Logger();
 $logger->addWriter($writer);
 $logger->info('Test log working');
 
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+$logger = new Logger('custom');
+$logger->pushHandler(
+    new StreamHandler(BP . '/var/log/test.log', Logger::INFO)
+);
+$logger->info('Test log working');
+
 This module ( **BrandGraphQL** ) returns information about brands using graphQL query.
 
 **GraphQL Query:**
